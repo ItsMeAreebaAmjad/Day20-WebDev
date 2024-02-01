@@ -1,0 +1,16 @@
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .floating-image {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    /* Adjust the animation properties as needed */
+    animation: moveUpDown 4s ease-in-out infinite;
+  }
